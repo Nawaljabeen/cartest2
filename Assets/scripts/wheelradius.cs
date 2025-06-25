@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,5 +18,9 @@ public class wradius : MonoBehaviour
         {
             Debug.LogError("Wheel Mesh Renderer is not assigned.");
         }
+    }
+    public void getaxis()
+    {
+
     }
 }
